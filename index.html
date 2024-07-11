@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Learn and Build Parking System</title>
+    
+    <link rel="stylesheet" href="/styles/styles.css">
+    <script src="./scripts/app.js" type="module"></script>
+
+  </head>
+  <body>
+    <header>
+        <h1>Learn and Build Parking System</h1>
+    </header>
+    <main>
+      <form action="" class="user">
+        <h2>User Registration</h2>
+        <input type="text" placeholder="Name*" required  id="name"/>
+        <input type="digits" placeholder="Contact*" required pattern="[0-9]{10}"  id="contact"/>
+        <select id="role">
+          <option disabled selected >-Select Role-</option>
+          <option value="student">Student</option>
+          <option value="faculty">Faculty</option>
+        </select>
+        <input type="button" id="saveUserBtn" value="Register" />
+        </form>
+      <form action="" class="vehicle">
+        <h2>Vehicle Registration</h2>
+        <input id="vehicleId" type="digits" placeholder="Registration Id*"/>
+        <select id="vehicleType" class="type">
+          <option disabled selected>-Select Vehicle-</option>
+          <option value="cycle">Cycle</option>
+          <option value="bike">Bike</option>
+          <option value="car">Car</option>
+        </select>
+        <input type="submit" id="vehicleSaveBtn" value="Submit"/>
+      </form>
+    
+      <form action="" class="pass-choice">
+        <h2>Pass-Choice</h2>
+ 
+      </form>
+    
+      <style>  
+      
+      header{
+        text-decoration: underline ;  
+        } 
+     h2 {  
+        text-decoration: underline ; 
+      } 
+      form{
+        border-style: solid;
+      }
+     
+      </style>
+      
+      <section class = "ticket">
+
+      </section>
+      </main>
+    
+    <footer>
+        &copy; Copyright 2024 | All rights reserved
+     </footer>
+
+     
+</body>
+</html>
